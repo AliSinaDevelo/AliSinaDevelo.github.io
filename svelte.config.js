@@ -14,7 +14,7 @@ const config = {
     }),
     paths: {
       // Set the base path for production; use an empty string for development
-      base: process.env.NODE_ENV === 'production' ? '/DevelosPortfolio' : '',
+      base: process.env.NODE_ENV === 'production' ? '/AliSinaDevelo.github.io' : '',
     }
   },
   preprocess: vitePreprocess()
