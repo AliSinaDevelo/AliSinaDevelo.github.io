@@ -14,7 +14,10 @@ const config = {
     }),
     paths: {
       // Set the base path for production; use an empty string for development
-      base: process.env.NODE_ENV === 'production' ? '/AliSinaDevelo.github.io' : '',
+      //base: process.env.NODE_ENV === 'production' ? '/AliSinaDevelo.github.io' : '',
+      base: '/AliSinaDevelo.github.io',
+      // include cv assets './static/assets/cv/output/CurriculumVitae.pdf'
+     // assets: '/AliSinaDevelo.github.io/static/assets/cv/output'
     }
   },
   preprocess: vitePreprocess()
