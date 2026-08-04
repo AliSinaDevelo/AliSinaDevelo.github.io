@@ -72,8 +72,8 @@ export const t = {
             loc: "Turin, Italy · open to remote roles",
             role: "Software Engineer",
             desc: "I build and optimize scalable backends, data-heavy products, and integrations that hold up in production—currently shipping Go services, PostgreSQL migrations, and AWS platform work remotely for an Australia-based commerce company.",
-            availA: "▸ EU-based contractor (partita IVA) or EOR",
-            availB: "no visa sponsorship needed",
+            availA: "▸ Remote from Italy · Italian VAT contractor or EOR",
+            availB: "flexible overlap across US/AU/NZ time zones",
             getInTouch: "Get in touch",
             downloadCv: "Download résumé (PDF)",
         },
@@ -82,12 +82,12 @@ export const t = {
         projects: {
             eyebrow: "Projects",
             headA: "Code you can ", headEm: "inspect", headB: "",
-            intro: "Five public repositories spanning real-time messaging, ML serving, hardened HTTP APIs, low-level distributed systems, and AI developer tooling—each with tests, containers or CI, and documentation meant for reviewers and operators—plus a private cross-LLM security lab.",
+            intro: "Five public repositories spanning real-time messaging, ML serving, hardened HTTP APIs, low-level distributed systems, and AI developer tooling—each with tests, containers or CI, and documentation that explains behavior and failure modes—plus a private cross-LLM security lab.",
             more: "More work on",
         },
         skills: {
             eyebrow: "Skills",
-            headA: "Stack aligned with ", headEm: "my résumé", headB: "",
+            headA: "The tools I ", headEm: "reach for", headB: "",
             titles: ["Programming", "Backend & APIs", "Frontend", "Cloud & Platform", "Data & observability", "AI / ML & security"],
             certs: "Certifications (high level): Stanford Algorithms Specialization, DeepLearning.AI Machine Learning, Meta Back-end and Front-end Developer programs.",
         },
@@ -101,7 +101,7 @@ export const t = {
         contact: {
             eyebrow: "Contact",
             headA: "Let’s ", headEm: "talk", headB: "",
-            intro: "Open to remote backend / platform roles (EU-based contractor via partita IVA, or EOR). No visa sponsorship needed. Based in Turin (CET) — happy to align with US/AU/NZ time zones.",
+            intro: "Based in Turin (CET), available remotely through an Italian VAT contractor arrangement or EOR, with flexible overlap across US/AU/NZ time zones.",
             bookChat: "Book a chat",
             downloadCv: "Download résumé (PDF)",
         },
@@ -119,8 +119,8 @@ export const t = {
                 ],
             },
             Chatster: {
-                tagline: "Real-time chat reference stack: Go WebSocket hub, SQLite history, React UI, Docker, and portfolio-grade ops docs.",
-                body: "End-to-end stack meant to read like production work: structured logging, metrics, health checks, rate limits, and explicit security controls—not a weekend demo with a README stub.",
+                tagline: "Real-time chat stack: Go WebSocket hub, SQLite history, React UI, Docker, and operational docs.",
+                body: "An end-to-end service focused on production concerns: structured logging, metrics, health checks, rate limits, and explicit security controls.",
                 highlights: [
                     "Buffered hub with per-client write serialization for safe concurrent WebSocket writes.",
                     "Replays the last 50 messages on connect; SQLite persistence with tolerant timestamp parsing.",
@@ -190,9 +190,9 @@ export const t = {
             { role: "Back-end Developer", where: "Turin, Italy", highlights: [
                 "Django backend performance and stability; React integration for cleaner API → UI data flow.",
             ] },
-            { role: "Software Developer", where: "Remote", highlights: [
-                "Event-driven prototypes with Kafka and Node.js; contributions focused on APIs, docs, and developer experience.",
-                "Independent scoping and delivery across small end-to-end projects.",
+            { role: "Open source & independent engineering", where: "Remote", highlights: [
+                "Merged upstream fixes and regression tests in pgx and Valkey; active contributions to migration tooling and Zed.",
+                "Independent scoping and delivery across systems, APIs, developer tools, and security automation.",
             ] },
         ],
         terminal: {
@@ -208,8 +208,8 @@ export const t = {
             loc: "Torino, Italia · disponibile per ruoli da remoto",
             role: "Software Engineer",
             desc: "Progetto e ottimizzo backend scalabili, prodotti data-intensive e integrazioni che reggono in produzione—attualmente lavoro da remoto su servizi Go, migrazioni PostgreSQL e infrastruttura AWS per un'azienda di e-commerce australiana.",
-            availA: "▸ Contratto come libero professionista UE (partita IVA) o EOR",
-            availB: "nessuna sponsorizzazione del visto richiesta",
+            availA: "▸ Da remoto dall'Italia · partita IVA o EOR",
+            availB: "sovrapposizione flessibile con USA/Australia/Nuova Zelanda",
             getInTouch: "Contattami",
             downloadCv: "Scarica il CV (PDF)",
         },
@@ -218,12 +218,12 @@ export const t = {
         projects: {
             eyebrow: "Progetti",
             headA: "Codice che puoi ", headEm: "ispezionare", headB: "",
-            intro: "Cinque repository pubblici che spaziano da messaggistica in tempo reale, serving ML, API HTTP irrobustite, sistemi distribuiti a basso livello e strumenti per sviluppatori basati su AI—ciascuno con test, container o CI e documentazione pensata per revisori e operatori—più un laboratorio di sicurezza cross-LLM privato.",
+            intro: "Cinque repository pubblici che spaziano da messaggistica in tempo reale, serving ML, API HTTP irrobustite, sistemi distribuiti a basso livello e strumenti per sviluppatori basati su AI—ciascuno con test, container o CI e documentazione sui comportamenti e sui casi di errore—più un laboratorio di sicurezza cross-LLM privato.",
             more: "Altro lavoro su",
         },
         skills: {
             eyebrow: "Competenze",
-            headA: "Stack allineato al ", headEm: "mio CV", headB: "",
+            headA: "Gli strumenti che ", headEm: "uso", headB: "",
             titles: ["Programmazione", "Backend & API", "Frontend", "Cloud & Platform", "Dati & osservabilità", "AI / ML & sicurezza"],
             certs: "Certificazioni (in sintesi): Stanford Algorithms Specialization, DeepLearning.AI Machine Learning, programmi Meta Back-end e Front-end Developer.",
         },
@@ -237,7 +237,7 @@ export const t = {
         contact: {
             eyebrow: "Contatti",
             headA: "", headEm: "Parliamone", headB: "",
-            intro: "Disponibile per ruoli backend / platform da remoto (libero professionista UE con partita IVA, oppure EOR). Nessuna sponsorizzazione del visto richiesta. Con base a Torino (CET) — felice di allinearmi ai fusi orari di USA/Australia/Nuova Zelanda.",
+            intro: "Con base a Torino (CET), disponibile da remoto tramite partita IVA o EOR, con sovrapposizione flessibile ai fusi orari di USA, Australia e Nuova Zelanda.",
             bookChat: "Prenota una chiamata",
             downloadCv: "Scarica il CV (PDF)",
         },
@@ -255,8 +255,8 @@ export const t = {
                 ],
             },
             Chatster: {
-                tagline: "Stack di riferimento per chat in tempo reale: hub WebSocket in Go, storico su SQLite, UI React, Docker e documentazione operativa di livello portfolio.",
-                body: "Stack end-to-end pensato per leggersi come lavoro di produzione: logging strutturato, metriche, health check, rate limit e controlli di sicurezza espliciti—non una demo da weekend con un README abbozzato.",
+                tagline: "Stack per chat in tempo reale: hub WebSocket in Go, storico su SQLite, UI React, Docker e documentazione operativa.",
+                body: "Un servizio end-to-end incentrato sui problemi di produzione: logging strutturato, metriche, health check, rate limit e controlli di sicurezza espliciti.",
                 highlights: [
                     "Hub bufferizzato con serializzazione delle scritture per client, per scritture WebSocket concorrenti sicure.",
                     "Riproduce gli ultimi 50 messaggi alla connessione; persistenza SQLite con parsing tollerante dei timestamp.",
@@ -326,9 +326,9 @@ export const t = {
             { role: "Sviluppatore Back-end", where: "Torino, Italia", highlights: [
                 "Performance e stabilità del backend Django; integrazione React per un flusso dati API → UI più pulito.",
             ] },
-            { role: "Software Developer", where: "Remoto", highlights: [
-                "Prototipi event-driven con Kafka e Node.js; contributi focalizzati su API, documentazione e developer experience.",
-                "Scoping e consegna in autonomia su piccoli progetti end-to-end.",
+            { role: "Open source e sviluppo indipendente", where: "Remoto", highlights: [
+                "Fix e regression test integrati upstream in pgx e Valkey; contributi attivi a strumenti di migrazione e Zed.",
+                "Scoping e consegna in autonomia tra sistemi, API, developer tooling e automazione della sicurezza.",
             ] },
         ],
         terminal: {
