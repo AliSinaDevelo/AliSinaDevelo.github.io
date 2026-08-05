@@ -191,7 +191,7 @@ export const t = {
                 "Django backend performance and stability; React integration for cleaner API → UI data flow.",
             ] },
             { role: "Open source & independent engineering", where: "Remote", highlights: [
-                "Merged upstream fixes and regression tests in pgx and Valkey; active contributions to migration tooling and Zed.",
+            "Open-source contributions across Go, databases, distributed systems, migration tooling, and developer tools.",
                 "Independent scoping and delivery across systems, APIs, developer tools, and security automation.",
             ] },
         ],
@@ -327,7 +327,7 @@ export const t = {
                 "Performance e stabilità del backend Django; integrazione React per un flusso dati API → UI più pulito.",
             ] },
             { role: "Open source e sviluppo indipendente", where: "Remoto", highlights: [
-                "Fix e regression test integrati upstream in pgx e Valkey; contributi attivi a strumenti di migrazione e Zed.",
+            "Contributi open source tra Go, database, sistemi distribuiti, strumenti di migrazione e developer tooling.",
                 "Scoping e consegna in autonomia tra sistemi, API, developer tooling e automazione della sicurezza.",
             ] },
         ],
