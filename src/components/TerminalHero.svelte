@@ -8,7 +8,7 @@
     $: term = t[$locale].terminal;
 
     // Each command prints a short, honest block. Kept tiny on purpose — this is a
-    // hook for recruiters, not a real shell. Only the whoami line carries
+    // small interactive index, not a real shell. Only the whoami line carries
     // locale-specific text; the rest is code/tech, identical across languages.
     $: commands = {
         whoami: [
@@ -26,17 +26,17 @@
         ],
         log: [
             {
-                prompt: "git log --oneline -3",
+                prompt: "cat current-work.txt",
                 out: [
-                    { kind: "perf", text: "perf  3×–10× faster production queries" },
-                    { kind: "perf", text: "infra ~60% cost cut · MariaDB → PostgreSQL" },
-                    { kind: "perf", text: "scale sessions + async work externalized" },
+                    { kind: "perf", text: "work  Go services · PostgreSQL · AWS" },
+                    { kind: "perf", text: "proof  3×–10× faster queries · ~60% lower cost" },
+                    { kind: "perf", text: "setup  queues · integrations · observability" },
                 ],
             },
         ],
         contact: [
             {
-                prompt: "contact --remote",
+                prompt: "contact --links",
                 out: [
                     { kind: "link", text: "alisinakarimi.2003@gmail.com", href: "mailto:alisinakarimi.2003@gmail.com" },
                     { kind: "link", text: "github.com/AliSinaDevelo", href: "https://github.com/AliSinaDevelo" },
@@ -53,10 +53,10 @@
             "AWS · Terraform · Packer · Docker · k8s",
             "PostgreSQL · Redis/Valkey · SQS · Prometheus",
         ]},
-        { prompt: "git log --oneline -3", out: [
-            { kind: "perf", text: "perf  3×–10× faster production queries" },
-            { kind: "perf", text: "infra ~60% cost cut · MariaDB → PostgreSQL" },
-            { kind: "perf", text: "scale sessions + async work externalized" },
+        { prompt: "cat current-work.txt", out: [
+            { kind: "perf", text: "work  Go services · PostgreSQL · AWS" },
+            { kind: "perf", text: "proof  3×–10× faster queries · ~60% lower cost" },
+            { kind: "perf", text: "setup  queues · integrations · observability" },
         ]},
     ];
 
@@ -164,12 +164,12 @@
                     type="button"
                     on:click={() => run("log")}
                     class="rounded-md border border-violet-800/60 bg-slate-900/60 px-2.5 py-1 text-xs text-violet-200/90 hover:border-violet-500 hover:bg-violet-950/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400"
-                >git log --oneline -3</button>
+                >cat current-work.txt</button>
                 <button
                     type="button"
                     on:click={() => run("contact")}
                     class="rounded-md border border-emerald-800/60 bg-emerald-950/30 px-2.5 py-1 text-xs text-emerald-200/90 hover:border-emerald-500 hover:bg-emerald-950/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400"
-                >contact --remote</button>
+                >contact --links</button>
             </div>
         {/if}
     </div>

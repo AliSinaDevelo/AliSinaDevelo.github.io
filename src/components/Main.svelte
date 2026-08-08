@@ -40,7 +40,7 @@
             </div>
             <div class="flex flex-wrap gap-3 justify-center lg:justify-start">
                 <a
-                    href="#contact"
+                    href="#projects"
                     class="blueShadow text-base sm:text-lg poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 font-medium"
                 >
                     <span
