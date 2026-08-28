@@ -40,6 +40,13 @@ export const projectMeta = [
         stack: ["Claude Code", "Markdown", "Python", "Prompt evals", "Safety hooks", "Plugin"],
     },
     {
+        name: "CARTOGRAPH",
+        icon: "fa-solid fa-map",
+        accent: "sky",
+        github: "https://github.com/AliSinaDevelo/CARTOGRAPH",
+        stack: ["TypeScript", "ts-morph", "Graph snapshots", "Git diffs", "Policy", "Evidence"],
+    },
+    {
         name: "SignalForge",
         icon: "fa-solid fa-shield-halved",
         accent: "rose",
@@ -167,6 +174,16 @@ export const t = {
                     "Tasks load the methods they need instead of pulling the whole toolkit into context.",
                     "Policy hooks and an eval/test harness make behavior easier to check.",
                     "Most of it is Markdown and small scripts, so you can read it without a build system.",
+                ],
+            },
+            CARTOGRAPH: {
+                tagline: "A local-first TypeScript architecture analyzer with evidence-backed revision diffs.",
+                body: "I built it to make architecture change reviewable: compiler-backed extraction produces a deterministic graph, Git revisions become semantic diffs, and every relationship carries evidence or an explicit unresolved reason.",
+                highlights: [
+                    "Compiler-backed TypeScript analysis covers modules, functions, calls, routes, data boundaries, outbound requests, and generated-code relationships.",
+                    "Canonical snapshots and Git revision diffs keep identity, evidence, diagnostics, and unresolved work visible.",
+                    "Policy, ownership, waiver, review, and runtime-reconciliation contracts stay local, bounded, and offline.",
+                    "SARIF, SCIP, JSON-LD, and edge-list interchange preserve provenance without shipping source bodies.",
                 ],
             },
         },
@@ -303,6 +320,16 @@ export const t = {
                     "Ogni task carica i metodi che servono senza portarsi dietro tutto il toolkit.",
                     "Policy hook e harness di eval/test rendono il comportamento più facile da controllare.",
                     "La maggior parte del progetto è Markdown e piccoli script, leggibili senza un build system.",
+                ],
+            },
+            CARTOGRAPH: {
+                tagline: "Un analizzatore locale TypeScript per l'architettura, con diff tra revisioni basati sulle evidenze.",
+                body: "L'ho costruito per rendere verificabile il cambiamento architetturale: l'estrazione compiler-backed produce un grafo deterministico, le revisioni Git diventano diff semantici e ogni relazione porta evidenza oppure una ragione esplicita per l'irrisoluzione.",
+                highlights: [
+                    "L'analisi TypeScript copre moduli, funzioni, chiamate, route, confini dati, richieste in uscita e relazioni con codice generato.",
+                    "Snapshot canonici e diff tra revisioni mantengono visibili identità, evidenze, diagnostica e lavoro irrisolto.",
+                    "Policy, ownership, waiver, review e riconciliazione runtime restano contratti locali, bounded e offline.",
+                    "Gli interchange SARIF, SCIP, JSON-LD ed edge-list preservano la provenienza senza includere il codice sorgente.",
                 ],
             },
         },
